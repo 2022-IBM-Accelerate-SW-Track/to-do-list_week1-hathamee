@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import AddTodo from "../component/AddTodo.js";
+import Todos from "../component/todos.js";
   
 class Home extends Component {
   // A default state of this component with an empty list of todos.
@@ -28,7 +30,9 @@ class Home extends Component {
     return (
       <div className="Home">
         <h1>Todo's </h1>
-        <p> Replace this</p>
+        <Todos todos={this.state}/>
+        <hr></hr>
+        <AddTodo addTodo={this.addTodo}/>
       </div>
     );
   }
