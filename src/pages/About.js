@@ -20,6 +20,9 @@ export default class About extends Component {
           <div className="centered">
             <div className="name_title">Hathamee Bensalem</div>
             <div className="brief_description">
+              <p>I'm at student at UC Berkeley studying Electrical Engineering and Computer
+                Science with hope of becoming a SWE
+              </p>
               <ul>In my free time I like to
                 <li>Dance</li>
                 <li>Sing</li>
